@@ -11,6 +11,9 @@ eureka:
     home-page-url: http://${eureka.instance.ip-address}:${server.port}/
 logging:
   path: logs
+ybs:
+  onlinetest:
+    url: http://study2.yiboshi.com/
 server:
   port: 8300
   undertow:
