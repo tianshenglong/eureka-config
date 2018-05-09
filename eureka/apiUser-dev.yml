@@ -12,7 +12,7 @@ eureka:
 logging:
   path: logs
 ybs:
-  onlinetest: http://study2.yiboshi.com/
+  onlinetest: http://study2.yiboshi.com/。。。。。。。。。。。。。
 server:
   port: 8400
   undertow:
