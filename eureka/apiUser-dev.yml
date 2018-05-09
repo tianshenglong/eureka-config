@@ -22,8 +22,6 @@ server:
 spring:
   application:
     name: api-user
-  profiles:
-    active: dev
 feign:
   hystrix:
     enabled: true
