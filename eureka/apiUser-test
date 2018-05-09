@@ -44,7 +44,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,hystrix.stream
+        include: health,info,hystrix.stream,refresh
   endpoint:
     shutdown:
       enabled: true
