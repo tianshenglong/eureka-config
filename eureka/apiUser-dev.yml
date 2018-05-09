@@ -12,7 +12,7 @@ eureka:
 logging:
   path: logs
 server:
-  port: 8300
+  port: 8400
   undertow:
     accesslog:
       enabled: true
