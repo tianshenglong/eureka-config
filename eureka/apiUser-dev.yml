@@ -41,6 +41,8 @@ hystrix:
             timeoutInMilliseconds: 60000
 #使用熔断聚合监控时，Finchley.M9 版本需要 spring boot 2.0，但是boot2.0 Actuator这个包变化了，默认只暴露health等几个端点需要加上如下配置才能 使监控生效
 management:
+  security:
+    enabled: false
   endpoints:
     web:
       exposure:
