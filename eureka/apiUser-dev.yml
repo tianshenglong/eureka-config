@@ -14,7 +14,7 @@ logging:
 ybs:
   onlinetest: http://study2.yiboshi.com/
 server:
-  port: 8300
+  port: 8400
   undertow:
     accesslog:
       enabled: true
