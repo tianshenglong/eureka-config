@@ -9,6 +9,8 @@ eureka:
     status-page-url: http://${eureka.instance.ip-address}:${server.port}/actuator/info
     health-check-url: http://${eureka.instance.ip-address}:${server.port}/actuator/health
     home-page-url: http://${eureka.instance.ip-address}:${server.port}/
+encrypt:
+  key: tslconfig
 logging:
   path: logs
 ybs:
